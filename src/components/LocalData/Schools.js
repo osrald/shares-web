@@ -1,0 +1,58 @@
+export const Schools = [
+  {
+    cfMinor: "001",
+    cfName: "Makati High School",
+    cfDesc: "Makati High School",
+    cfGeneral1: "Gen. Luna St., Makati City",
+    cfGeneral2: "School 2 (MHS)",
+  },
+  {
+    cfMinor: "002",
+    cfName: "Fort Bonifacio High School",
+    cfDesc: "Fort Bonifacio High School",
+    cfGeneral1: "",
+    cfGeneral2: "School 5 (FBHS)",
+  },
+  {
+    cfMinor: "003",
+    cfName: "Makati Science High School",
+    cfDesc: "Makati Science High School",
+    cfGeneral1: "",
+    cfGeneral2: "School 1 (MSHS)",
+  },
+  {
+    cfMinor: "004",
+    cfName: "Nemesio I. Yabut ES",
+    cfDesc: "Nemesio I. Yabut ES",
+    cfGeneral1: "",
+    cfGeneral2: "School 3 (NYES)",
+  },
+  {
+    cfMinor: "005",
+    cfName: "Maximo Estrella ES",
+    cfDesc: "Maximo Estrella ES",
+    cfGeneral1: "",
+    cfGeneral2: "School 4 (MEES)",
+  },
+  {
+    cfMinor: "006",
+    cfName: "Pitogo High School",
+    cfDesc: "Pitogo High School",
+    cfGeneral1: "",
+    cfGeneral2: "School 6 (PITOGO HS)",
+  },
+  {
+    cfMinor: "007",
+    cfName: "Benigno Ninoy Aquino High School",
+    cfDesc: "Benigno Ninoy Aquino High School",
+    cfGeneral1: "",
+    cfGeneral2: "School 7 (BENIGNO NAHS)",
+  },
+  {
+    cfMinor: "999",
+    cfName: "Other Schools",
+    cfDesc: "Other Schools",
+    cfGeneral1: "",
+    cfGeneral2: "School 8 (Other Schools)",
+  },
+];

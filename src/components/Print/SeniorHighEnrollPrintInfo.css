@@ -1,0 +1,222 @@
+.logo-mhs {
+  height: 100px;
+  width: 101px;
+}
+
+.print-row {
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.print-column-1 {
+  float: left;
+  width: 20%;
+  padding-top: 20px;
+}
+
+.print-column-2 {
+  float: left;
+  width: 15%;
+  padding-top: 10px;
+}
+
+.print-column-3 {
+  float: left;
+  width: 35%;
+  padding: 10px;
+}
+
+.print-column-4 {
+  float: left;
+  width: 1%;
+  padding-top: 10px;
+}
+
+.print-column-5 {
+  float: left;
+  width: 19%;
+  padding-top: 15px;
+}
+
+.print-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.print-column-2 img {
+  float: right;
+}
+
+.print-column-1 h4 {
+  text-align: center;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.print-column-1 h5 {
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.print-column-3 h1 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.print-column-3 h2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.print-column-3,
+.print-center h3 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.print-column-5 h3 {
+  text-align: center;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.print-column-5 h4 {
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+.regular-print {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 12px;
+}
+
+.regular-print-left {
+  float: left;
+  text-align: center;
+  width: 34%;
+}
+
+.regular-print-center {
+  float: left;
+  text-align: center;
+  width: 33%;
+}
+
+.regular-print-right {
+  float: left;
+  text-align: center;
+  width: 33%;
+}
+
+.regular-2colprint-left {
+  float: left;
+  width: 40%;
+}
+
+.regular-2colprint-right {
+  float: left;
+  width: 60%;
+}
+
+.footer-2colprint-left {
+  float: left;
+  width: 50%;
+}
+
+.footer-2colprint-right {
+  float: left;
+  width: 50%;
+}
+
+.regular-4colprint-1 {
+  float: left;
+  width: 25%;
+}
+
+.regular-4colprint-2 {
+  float: left;
+  width: 25%;
+}
+
+.regular-4colprint-3 {
+  float: left;
+  width: 25%;
+}
+
+.regular-4colprint-4 {
+  float: left;
+  width: 25%;
+}
+
+.regularA-4colprint-1 {
+  float: left;
+  width: 15%;
+}
+
+.regularA-4colprint-2 {
+  float: left;
+  width: 15%;
+}
+
+.regularA-4colprint-3 {
+  float: left;
+  width: 40%;
+}
+
+.regularA-4colprint-4 {
+  float: left;
+  width: 30%;
+}
+
+.regular-3colprint-1 {
+  float: left;
+  width: 34%;
+}
+
+.regular-3colprint-2 {
+  float: left;
+  width: 33%;
+}
+
+.regular-3colprint-3 {
+  float: left;
+  width: 33%;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.footer-print {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 15px;
+}
+
+.footer-approved {
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.footer-print-signatory {
+  border-top: 1px solid rgb(217, 217, 217);
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.dashed-line {
+  margin: 5px 0;
+  height: 2px;
+  background: repeating-linear-gradient(
+    to right,
+    black 0,
+    black 10px,
+    transparent 10px,
+    transparent 12px
+  );
+}

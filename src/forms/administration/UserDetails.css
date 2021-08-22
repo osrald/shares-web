@@ -1,0 +1,45 @@
+.userdets-btn-add-update {
+  border: none;
+  color: #fff;
+  outline: none;
+  height: 40px;
+  width: 100px;
+  font-size: 1rem;
+  border-radius: 2px;
+  background: linear-gradient(90deg, rgb(39, 176, 255) 0%, cornflowerblue 100%);
+}
+
+.userdets-btn-add-update:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 143, 255) 0%,
+    rgb(12, 99, 250) 100%
+  );
+  transition: all 0.4s ease-out;
+}
+
+.userdets-btn-cancel {
+  border: none;
+  color: #fff;
+  outline: none;
+  height: 40px;
+  width: 100px;
+  font-size: 1rem;
+  border-radius: 2px;
+  background: linear-gradient(
+    90deg,
+    rgb(201, 93, 85) 0%,
+    rgb(182, 49, 49) 100%
+  );
+}
+
+.userdets-btn-cancel:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgb(143, 96, 68) 0%,
+    rgb(202, 104, 24) 100%
+  );
+  transition: all 0.4s ease-out;
+}

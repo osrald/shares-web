@@ -1,0 +1,125 @@
+.config {
+  height: 1024px;
+}
+
+.list-row {
+  box-sizing: border-box;
+}
+
+.list-column-1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  padding-left: 150px;
+}
+
+.list-column-2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-content {
+  border-radius: 10px;
+  position: relative;
+  align-items: center;
+  background: linear-gradient(90deg, rgb(77, 76, 76) 0%, rgb(58, 56, 56) 100%);
+}
+
+.list-content h2 {
+  color: white;
+  margin: 15px;
+  text-align: center;
+}
+
+.select-input {
+  text-align: center;
+}
+
+.ul-list {
+  list-style: none;
+  display: table;
+  margin: 0 auto;
+}
+
+.li-item {
+  font-size: 12px;
+  color: #fff;
+  margin: 0.25rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.btn-config {
+  height: 50px;
+  width: 15rem;
+  font-size: 1rem;
+  border-radius: 2px;
+  background: linear-gradient(
+    90deg,
+    rgb(109, 102, 187) 0%,
+    rgb(73, 63, 252) 100%
+  );
+  outline: none;
+  border: none;
+  color: #fff;
+}
+
+.btn-config:hover {
+  background: linear-gradient(
+    90deg,
+    rgb(109, 102, 187) 100%,
+    rgb(73, 63, 252) 0%
+  );
+}
+
+.div-beside {
+  width: 100%;
+  overflow: hidden;
+}
+
+.div-beside-left {
+  width: auto;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.div-beside-right {
+  width: auto;
+}
+
+@media screen and (max-width: 1220px) {
+  .list-column-1 {
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .list-column-1 {
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .list-column-1 {
+    padding-left: 25px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .list-column-1 {
+    padding-left: 10px;
+  }
+}

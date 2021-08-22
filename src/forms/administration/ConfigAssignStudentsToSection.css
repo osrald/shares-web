@@ -1,0 +1,183 @@
+.table-container {
+  margin: 50px;
+  width: auto;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 10px;
+  height: 2048px;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.table-background {
+  border-radius: 10px;
+  position: relative;
+  align-items: center;
+  background: linear-gradient(90deg, rgb(77, 76, 76) 0%, rgb(58, 56, 56) 100%);
+}
+
+.table-div {
+  margin-top: 20px;
+  width: 98%;
+}
+
+.column-center {
+  text-align: center;
+}
+
+.table-global-search {
+  margin-bottom: 0.5rem;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  width: 200px;
+  height: 30px;
+  border: none;
+}
+
+.pagination {
+  padding-top: 0.5rem;
+}
+
+.pagination span {
+  color: #fff;
+}
+.pagination-button {
+  border: none;
+  color: #fff;
+  outline: none;
+  height: 30px;
+  width: 50px;
+  border-radius: 2px;
+  background: rgb(109, 102, 187);
+}
+
+.pagination-spacer {
+  padding: 3px;
+}
+
+.disable-button {
+  background: rgb(112, 113, 114);
+}
+
+.pagination-button:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 143, 255) 0%,
+    rgb(12, 99, 250) 100%
+  );
+  transition: all 0.4s ease-out;
+}
+
+.no-hover {
+  pointer-events: none;
+}
+
+.pagination-input {
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  width: 50px;
+  height: 30px;
+  border: none;
+}
+
+.pagination-dropdown {
+  height: 32px;
+  font-size: 12px;
+  color: #595959;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr {
+  color: white;
+}
+
+table tr:hover {
+  background-color: rgb(87, 85, 214);
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background: rgb(109, 102, 187);
+  color: white;
+}
+
+.report-btn-generate {
+  margin-bottom: 0.5rem;
+  border: none;
+  color: #fff;
+  outline: none;
+  height: 32px;
+  width: 180px;
+  font-size: 1rem;
+  border-radius: 2px;
+  background: linear-gradient(90deg, rgb(39, 176, 255) 0%, cornflowerblue 100%);
+}
+
+.report-btn-generate:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 143, 255) 0%,
+    rgb(12, 99, 250) 100%
+  );
+  transition: all 0.4s ease-out;
+}
+
+.report-btn-export {
+  margin-bottom: 0.5rem;
+  border: 2px solid seagreen;
+  color: #fff;
+  outline: none;
+  height: 32px;
+  width: 100px;
+  font-size: 1rem;
+  border-radius: 2px;
+  background: rgb(77, 76, 76);
+}
+
+.report-btn-export:hover {
+  cursor: pointer;
+  background: rgb(109, 102, 187);
+  transition: all 0.4s ease-out;
+}
+
+.report-ui-row {
+  box-sizing: border-box;
+}
+
+.report-ui-left {
+  float: left;
+  width: 50%;
+}
+
+.report-ui-right {
+  text-align: right;
+  float: left;
+  width: 50%;
+}
+
+.fa-file-excel {
+  color: seagreen;
+}
+
+.export-text {
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+  font-size: 1rem;
+}
