@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+![SharesGit-Header](https://user-images.githubusercontent.com/36359263/130601988-b2e8a921-e1a4-4c43-b8d0-caf41428ed9a.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a registration and enrollment application designed for Philippine educational system accessible via multiple online channels (i.e. mobile, web) to avoid health risks during Covid-19 pandemic wherein it is also worth noting that the Philippine government tightened their quarantine laws in which all students are not allowed outside. 
 
-## Available Scripts
+The web version allows the enrollment staff to work from home since the reports are compliant to the department of education’s report registry. 
 
-In the project directory, you can run:
+The goal of this application is to evolve into a full suite school system package serving all grade levels on both private and government education sectors. 
 
-### `npm start`
+Web Version is accessible through www.shares-system.com while mobile version is accessible via expo as per the indicated instructions below.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## This application was developed using
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+React JS 17.0.2, React Native Sdk-42, Java Spring Boot 2.4.5, MySql 8.0.14
 
-### `npm test`
+## Dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Axios, Jwt-decode, File-saver, moment, react-table, react-to-print, react-tabs, react-spinners, expo, hibernate, jjwt, lombok.
 
-### `npm run build`
+## Cloud Infrastucture
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Linux Server 20.04.2 LTS (Focal Fossa), NGINX, PM2, NodeJS, Tomcat 9, MySql 8 for Linux
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Java 8 / OpenJdk version "1.8.0_292" OpenJDK Runtime Environment (build 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Development Tools
 
-### `npm run eject`
+VS Code 1.59.1, Postman, Eclipse-Spring Tool Suite 4, MySql Workbench 8.0
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## To install in your mobile phones
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Go to google play app store (android) or apple store (ios) and install “Expo” ![ExpoXXSM](https://user-images.githubusercontent.com/36359263/130603885-cf3e8b99-c1e3-4bca-923b-2d9e028fa096.png) then scan the following QR code using expo.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![QR-code](https://user-images.githubusercontent.com/36359263/130603993-a84c1a09-2546-459e-9c12-31f571803e34.png)
